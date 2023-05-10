@@ -118,3 +118,6 @@ function highlightScrolledSection() {
  *
 */
 document.addEventListener('scroll', highlightScrolledSection);
+
+
+

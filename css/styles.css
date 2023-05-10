@@ -50,6 +50,13 @@ main {
     margin: 10vh 1em 10vh;
 }
 
+/* @media screen and (max-width: 600px) {
+    main {
+        margin-top: 300px;
+
+    }
+} */
+
 .main-hero {
     min-height: 40vh;
     padding-top: 3em;
@@ -64,6 +71,8 @@ section {
 /* ---- Module Rules ---- */
 
 /* Navigation Styles*/
+
+
 .navbar__menu ul {
     display: flex;
     justify-content: space-around;
@@ -81,6 +90,7 @@ section {
 .active {
     background-color: rgba(255, 255, 255, 0.187);
 }
+
 
 #first:hover {
     background-color: rgba(0, 13, 60, 1);
@@ -108,6 +118,16 @@ section {
     color: #fff;
     transition: ease 0.3s all;
 }
+
+@media screen and (max-width: 950px) {
+    .navbar__menu ul {
+        flex-direction: column;
+        align-items: center;
+        font-size: medium;
+    }
+}
+
+
 
 /* Header Styles */
 .page__header {
