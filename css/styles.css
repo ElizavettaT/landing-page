@@ -50,12 +50,12 @@ main {
     margin: 10vh 1em 10vh;
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     main {
-        margin-top: 300px;
-
+        margin-top: 800px;
+        position: relative;
     }
-} */
+}
 
 .main-hero {
     min-height: 40vh;
@@ -65,6 +65,7 @@ main {
 section {
     position: relative;
     min-height: 80vh;
+    scroll-margin-top: 15vh;
 }
 
 
